@@ -1,0 +1,6 @@
+[submodule "exercises_react"]
+	path = exercises_react
+	url = https://github.com/Bang-2108/react-exersices.git
+[submodule "study_react"]
+	path = study_react
+	url = https://github.com/Bang-2108/study-react.git
