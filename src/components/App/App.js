@@ -5,6 +5,7 @@ import Content from '../Content/Content';
 import Footer from '../Footer/Footer';
 import Product from '../Form-2/Product';
 import Room from '../Form-3/Room';
+import Food from '../Form-1/Food';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
           <div className="loader" />
         </div>
         {/* <Product></Product> */}
-        <Room></Room>
+        {/* <Room></Room> */}
+        <Food></Food>
 
       </div>
   );
