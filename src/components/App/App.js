@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 import Content from '../Content/Content';
 import Footer from '../Footer/Footer';
 import Product from '../Form-2/Product';
+import Room from '../Form-3/Room';
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
         <div id="preloder">
           <div className="loader" />
         </div>
-        <Product></Product>
+        {/* <Product></Product> */}
+        <Room></Room>
+
       </div>
   );
 }
