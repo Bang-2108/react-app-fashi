@@ -20,7 +20,6 @@ function Data(dataName) {
             price: "13.00",
             old_price: "729.00",
           },
-          // Bạn thêm sản phẩm khác vào đây nếu muốn
         ];
         return products;
       default:

@@ -13,9 +13,9 @@ function App() {
         <div id="preloder">
           <div className="loader" />
         </div>
-        {/* <Product></Product> */}
+        <Product></Product>
         {/* <Room></Room> */}
-        <Food></Food>
+        {/* <Food></Food> */}
 
       </div>
   );
