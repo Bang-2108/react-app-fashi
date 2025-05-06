@@ -1,4 +1,4 @@
-function Data(dataName) {
+function FashionData(dataName) {
     switch (dataName) {
       case "products":
         const products = [
@@ -27,4 +27,4 @@ function Data(dataName) {
     }
   }
   
-  export default Data;
+  export default FashionData;

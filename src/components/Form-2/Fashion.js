@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Data from "./Data";
+import FashionData from "./FashionData";
 
-class Product extends Component {
+class Fashion extends Component {
     constructor(props) {
         super(props);
 
@@ -11,7 +11,7 @@ class Product extends Component {
         if (storedProducts) {
             products = JSON.parse(storedProducts);
         } else {
-            products = Data('products');
+            products = FashionData('products');
             localStorage.setItem('products', JSON.stringify(products));
         }
 
@@ -227,4 +227,4 @@ class Product extends Component {
     }
 }
 
-export default Product;
+export default Fashion;
